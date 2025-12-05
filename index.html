@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JL Flowers</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, Helvetica, sans-serif;
+            background: #ffffff; /* TODO blanco */
+        }
+
+        /* NAVBAR */
+        .navbar {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 20px 40px;
+            background: #ffffff;
+            border-bottom: 1px solid #eee;
+        }
+
+        .navbar .logo {
+            font-size: 20px;
+            font-weight: bold;
+        }
+
+        .navbar ul {
+            display: flex;
+            list-style: none;
+            gap: 25px;
+        }
+
+        .navbar ul li {
+            cursor: pointer;
+        }
+
+        .navbar-icons {
+            display: flex;
+            gap: 20px;
+            font-size: 18px;
+            cursor: pointer;
+        }
+
+        /* HERO */
+        .hero {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 80px 60px;
+            background: #f6efe8; /* fondo suave como en la imagen */
+        }
+
+        .hero-text {
+            flex: 1;
+        }
+
+        .hero-text h1 {
+            font-size: 46px;
+            margin: 0;
+        }
+
+        .hero-text p {
+            font-size: 16px;
+            margin-top: 10px;
+            color: #555;
+        }
+
+        .btn {
+            margin-top: 20px;
+            padding: 12px 25px;
+            background: black;
+            color: white;
+            border: none;
+            border-radius: 10px;
+            cursor: pointer;
+            font-size: 16px;
+        }
+
+        .hero img {
+            width: 330px;
+            border-radius: 15px;
+        }
+
+        /* INFO FEATURES */
+        .info {
+            display: flex;
+            justify-content: space-between;
+            padding: 40px 60px;
+            background: white;
+        }
+
+        .info-box {
+            width: 32%;
+            padding: 20px;
+            background: #fafafa;
+            border-radius: 15px;
+            text-align: center;
+        }
+
+        .info-box h4 {
+            margin: 0;
+            font-size: 16px;
+        }
+
+        .info-box p {
+            font-size: 14px;
+            color: #666;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- NAVBAR -->
+    <div class="navbar">
+        <div class="logo">Floreria chad</div>
+
+        <ul>
+            <li>Flores ▾</li>
+            <li> comprar ▾</li>
+            <li>Arma tu ramo</li>
+            <li>Contacto </li>
+        </ul>
+
+        <div class="navbar-icons">
+            <span>🔍</span>
+            <span>❤️</span>
+            <span>👤</span>
+        </div>
+    </div>
+
+    <!-- HERO -->
+    <div class="hero">
+        <div class="hero-text">
+            <h1>¡Feliz Aniversario!</h1>
+            <p>Nuestro paquete especial para tu momento especial</p>
+            <button class="btn">COMPRAR AHORA</button>
+        </div>
+
+      <img src="images/floress.png" alt="Flores">
+
+    </div>
+
+    <!-- INFO SECTION -->
+    <div class="info">
+        <div class="info-box">
+            <h4>Armar tu ramo es demasiado facil</h4>
+            <p>Arma tu ramo en segundos.</p>
+        </div>
+
+        <div class="info-box">
+            <h4>Los mejores ramos</h4>
+            <p>Precio accesible para ramos premium.</p>
+        </div>
+
+        <div class="info-box">
+            <h4>Flores frescas todos los días</h4>
+            <p>Compralo y recibelo el mismo día.</p>
+        </div>
+    </div>
+
+</body>
+</html>
